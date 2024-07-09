@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Eduardo Dourado"/>
+        <meta name="keywords" content="Música, Música Russa, Vtoroika, Lista de Músicas" />
+        <meta name="description" content="Site para para ouvir ou se cadastrar e ter acesso a músicas Russas"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Primeiro Projeto</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;   
+            }
+            body{
+                font-family: monospace;
+                text-align: center;
+            }
+            #rodape{
+                background-color: rgb(82, 78, 78);
+                padding: 30px;
+                color: rgb(225, 224, 224);
+                font-weight: 600;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <h1 style="letter-spacing: 2px;font-size: 32px;">Músicas Russas</h1>
+        </header>
+        <main id="corpoSite">
+            <section id="ListaMusicas">
+                <h2>Banda Vtoroika</h2>
+                <audio class="audio" controls loop>
+                    <source src="musica.mp4" type="audio/mp4"/>
+                </audio>
+                <br/>
+                <audio controls class="audio">
+                    <source src="musica.mp4" type="audio/mp4"/>
+                </audio>
+                <br/>
+                <audio controls class="audio">
+                    <source src="musica.mp4" type="audio/mp4"/>
+                </audio>
+                <br/>
+            </section>
+            <br/>
+            <section id="formulario">
+                <h2>Quer receber Novas Músicas por E-mail?</h2>
+                <h3>Faça seu Cadastro</h3>
+                <form>
+                    <span>Nome: </span>
+                    <input type="text" name="nome" placeholder="Digite seu nome..."  required/>
+                    <br/>
+                    <span>E-mail: </span>
+                    <input type="email" name="email" placeholder="Digite seu e-mail..." required/>
+                    <br/>
+                    <span>Quantidade: </span>
+                    <input type="number" name="musicas"/>
+                    <br/>
+                    <span>Data de entrega: </span>
+                    <input type="date" name="dia"/>
+                    <br/>
+                    <input class="but" type="submit" name="enviar" value="Enviar"/>
+                </form>
+            </section>
+        </main>
+        <footer id="rodape">
+            <span>By - Eduardo Dourado - 07/07/2024</span>
+        </footer>
+    </body>
+</html>
