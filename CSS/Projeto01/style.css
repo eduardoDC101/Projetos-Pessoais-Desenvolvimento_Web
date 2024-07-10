@@ -8,7 +8,6 @@
     background-color: rgb(211, 209, 209);
     padding: 10px;
 }
-
 #corpoSite h2{
     color: rgb(197, 195, 195);
     font-size:25px;
@@ -16,37 +15,31 @@
     background-color: rgb(49, 49, 49);
     border-radius: 30px;
 }
-
 #ListaMusicas{
     max-width: 500px;
     margin: 0 auto;
     box-shadow: 2px 2px 10px rgb(65, 65, 65);
     padding: 15px;
 }
-
 .audio
 {
     margin-top: 10px;
 }
-
 #formulario{
     max-width: 600px;
     margin: 0 auto;
     box-shadow: 2px 2px 10px rgb(64, 64, 64);
     padding: 15px;
 }
-
 #formulario h3{
     color: rgb(71, 70, 70);
     margin: 5px;
 }
-
 #formulario form{
     background-color: rgb(168, 168, 168);
     border-radius: 10px;
     padding: 15px;
 }
-
 #formulario form span{
     color: rgb(68, 67, 67);
     font-size: 20px;
@@ -59,7 +52,6 @@
     margin-top: 10px;
     max-width: 70%;
 }
-
 #formulario  .but{
     margin-top: 20px;
     background-color: rgb(49, 49, 49) ;
