@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: #241641;
+}
+
+header{
+    border-bottom: 3px solid #2e1d50;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    min-width: 515px;
+}
+
+select {
+    padding: 10px 80px 10px 10px;
+    appearance: none;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+header a{
+    color: #999;
+    font-size: 16px;
+    letter-spacing: -0.7px;
+    margin-left:30px;
+}
+
+main #primeiro{
+    border-bottom: 3px solid #2e1d50;
+    width: 90%;
+    margin: 70px auto;
+    max-width: 90%;
+    min-width: 490px;
+    color: rgb(196, 196, 196);
+    padding: 0 20px;
+}
+
+#primeiro h1{
+    color: white;
+    font-size: 50px;
+    word-spacing: 6px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 45px;
+}
+
+#primeiro p{
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#primeiro button{
+    margin: 30px 0 60px 0;
+    padding: 15px 20px ;
+    border-radius: 7px;
+    border: none;
+    background-color: #6c2ef5;
+    color: #fffffe;
+    font-size: 20px;
+    
+}
+
+main #segundo{
+    border-bottom: 3px solid #2e1d50;
+    width: 90%;
+    margin: 70px auto;
+    max-width: 90%;
+    min-width: 450px;
+    color: rgb(196, 196, 196);
+    padding: 0 20px;
+}
+
+#segundo h2 {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+#segundo p{
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#articles {
+    width: 100%;
+    margin-bottom: 60px;
+}
+article{
+    max-width: 230px;
+    width:230px; 
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 7px;
+    padding: 50px 10px 10px 10px;
+}
+
+#articles article h3{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: -10px;
+    color: white;
+}
+
+#articles article p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+}
+
+.um{
+    background-color: #03a777;
+}
+.dois{
+    background-color: #2862d6;
+}
+.tres{
+    background-color: #e2136a;
+}
+.quatro{
+    background-color: #cc00ff;
+}
+.cinco{
+    background-color: #f85a28;
+}
+.seis{
+    background-color: #008080;
+}
+.sete{
+    background-color: #daa520;
+}
+.oito{
+    background-color: #4b0082;
+}
+.nove{
+    background-color: #483d8b;
+}
+.dez{
+    background-color: #800080;
+}
+.onze{
+    max-width: 47%;
+    width:47%; 
+    background-color: #2e8b57;
+}
+.doze{
+    max-width: 47%;
+    width:47%; 
+    background-color: #dc143c;
+}
+
+#terceiro {
+    border-bottom: 3px solid #2e1d50;
+    width: 90%;
+    margin: 70px auto;
+    max-width: 90%;
+    min-width: 490px;
+    color: rgb(196, 196, 196);
+    padding: 0 20px;
+}
+
+#terceiro h2 {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+#terceiro p{
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#divs{
+    width: 340px;
+    margin-bottom: 60px;
+}
+
+#divs h4{
+    font-size: 14px;
+}
+#divs h3{
+    font-size: 18px;
+}
+
+.divum{
+    background-color: #03a777;
+}
+.divdois{
+    background-color: #2862d6;
+}
+.divtres{
+    background-color: #e2136a;
+}
+.divquatro{
+    background-color: #cc00ff;
+}
+.divcinco{
+    background-color:#f85a28;
+}
+
+.formato{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 3px 20px;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+footer{
+    text-align: center;
+    color: whitesmoke;
+    padding: 0px 30px 30px 30px;
+}
+
+@media screen and (max-width:610px) {
+    article{
+        max-width: 185px;
+        width:185px; 
+        height: 150px;
+        vertical-align: middle;
+        margin: 5px;
+        padding: 35px 7px 7px 7px;
+    }
+    .onze{
+        max-width: 45%;
+        width:45%; 
+        background-color: #2e8b57;
+    }
+    .doze{
+        max-width: 45%;
+        width:45%; 
+        background-color: #dc143c;
+    }
+    main #primeiro{
+        width: 65%;
+    }
+    
+}
