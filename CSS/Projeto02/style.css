@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     color: white;
     background-color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
 header h1{
     font-size: 64px;
     font-weight: lighter;
@@ -18,21 +16,17 @@ header h1{
     color: blueviolet;
     text-shadow: 5px 2px 70px blue;
 }
-
 #centro{
    max-width: 100%;
    margin: 10px;
    line-height: 30px;
    word-spacing: 15px;
-
 }
-
 #centro h2{
     color: rgb(255,255,0);
     text-transform: uppercase;
     text-shadow: 2px 2px 5px yellowgreen;
 }
-
 #centro p{
     text-indent: 25px;
 }
@@ -42,7 +36,6 @@ header h1{
     margin: 0 auto;
     padding-top: 20px;
 }
-
 #Titulos p{
     font-weight: 700;
     font-size: 32px;
@@ -52,25 +45,21 @@ header h1{
     font-size: 12px;
     font-weight: 200;
 }
-
 #Titulos h6{
     font-size: 20px;
     font-weight: 600;
 }
-
 #container{
     height: 200px;
     border: 1px solid gainsboro;
     overflow: auto;
 }
-
 footer a{
     color: #39e75f;
     text-decoration: none;
     text-transform: lowercase;
     text-shadow: 2px 2px 5px green;
 }
-
 footer span{
     color: rgba(0,120,0,0.5);
 }
