@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html, body
 {
     height: 100%;
     font-family: "Poppins", sans-serif;
     background-color: #241641;
 }
+
 header{
     border-bottom: 3px solid #2e1d50;
     width: 90%;
@@ -17,6 +19,7 @@ header{
     padding: 20px;
     min-width: 515px;
 }
+
 select {
     padding: 10px 80px 10px 10px;
     appearance: none;
@@ -24,12 +27,14 @@ select {
     font-size: 16px;
     border-radius: 5px;
 }
+
 header a{
     color: #999;
     font-size: 16px;
     letter-spacing: -0.7px;
     margin-left:30px;
 }
+
 main #primeiro{
     border-bottom: 3px solid #2e1d50;
     width: 90%;
@@ -39,6 +44,7 @@ main #primeiro{
     color: rgb(196, 196, 196);
     padding: 0 20px;
 }
+
 #primeiro h1{
     color: white;
     font-size: 50px;
@@ -47,11 +53,13 @@ main #primeiro{
     line-height: 60px;
     margin-bottom: 45px;
 }
+
 #primeiro p{
     word-spacing: 2px;
     font-size: 18px;
     line-height: 40px;
 }
+
 #primeiro button{
     margin: 30px 0 60px 0;
     padding: 15px 20px ;
@@ -62,6 +70,7 @@ main #primeiro{
     font-size: 20px;
     
 }
+
 main #segundo{
     border-bottom: 3px solid #2e1d50;
     width: 90%;
@@ -71,20 +80,24 @@ main #segundo{
     color: rgb(196, 196, 196);
     padding: 0 20px;
 }
+
 #segundo h2 {
     font-weight: 500;
     font-size: 32px;
     margin-bottom: 45px;
 }
+
 #segundo p{
     word-spacing: 2px;
     font-size: 18px;
     line-height: 40px;
 }
+
 #articles {
     width: 100%;
     margin-bottom: 60px;
 }
+
 article{
     max-width: 230px;
     width:230px; 
@@ -96,12 +109,14 @@ article{
     margin: 7px;
     padding: 50px 10px 10px 10px;
 }
+
 #articles article h3{
     font-size: 42px;
     font-weight: 600;
     margin-bottom: -10px;
     color: white;
 }
+
 #articles article p{
     font-size: 12px;
     font-weight: 600;
