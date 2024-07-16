@@ -4,11 +4,9 @@
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
 }
-
 html, body{
     height: 100%;
 }
-
 #fundo-principal{
     width: 100%;
     max-width: 100%;
@@ -19,7 +17,6 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #sombra{
     width: 100%;
     max-width: 100%;
@@ -27,18 +24,15 @@ html, body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
 header{
     margin: 0 auto;
     width: 40%;
 }
-
 header ul{
     text-align: center;
     list-style: none;
     padding: 20px 0 0 0;
 }
-
 header li {
     color: whitesmoke;
     display: inline-block;
@@ -47,29 +41,24 @@ header li {
     margin: 0 20px 0 20px;
     letter-spacing: 1px;
 }
-
 header li a{
     text-decoration: none;
     color: whitesmoke;
 }
-
 header li:hover{
     text-decoration: line-through;
     cursor: pointer;
 }
-
 #centro{
     margin: 250px auto;
     text-align: center;
     color: whitesmoke;
 }
-
 #centro h1{
     font-size: 58px;
     font-weight: 500;
     margin-bottom: 60px;
 }
-
 #centro p{
     font-weight: 300;
     font-size: 18px;
@@ -77,7 +66,6 @@ header li:hover{
     word-spacing: 4px;
     line-height: 30px;
 }
-
 @media screen and (max-width:761px){
     #centro h1{
         font-size: 50px;
@@ -98,31 +86,24 @@ header li:hover{
         font-size: 28px;
     }    
 }
-
-
 #menu-concertos a{
     color: black;
 }
-
 #menu-concertos li{
     color: black;
 }
-
 #imagem-fundo{
     width: 100%;
     text-align: center;
 }
-
 #imagem-fundo img{
     margin-top: 40px;
 }
-
 #opcoes-centro{
     width: 70%;
     margin: 0 auto;
     height: 500px;
 }
-
 #opcoes-centro .normal{
     background-color: black;
     width: 73%;
@@ -134,8 +115,6 @@ header li:hover{
 #opcoes-centro .normal:hover{
     background-color: white;
 }
-
-
 #opcoes-centro .normaldois{
     background-color: black;
     width: 73%;
@@ -147,7 +126,6 @@ header li:hover{
 #opcoes-centro .normaldois:hover{
     background-color: red;
 }
-
 #opcoes-centro .normaltres{
     background-color: black;
     width: 73%;
@@ -159,7 +137,6 @@ header li:hover{
 #opcoes-centro .normaltres:hover{
     background-color: blue;
 }
-
 #opcoes-centro .normalquatro{
     background-color: black;
     width: 73%;
@@ -171,27 +148,22 @@ header li:hover{
 #opcoes-centro .normalquatro:hover{
     background-color: rgb(216, 216, 0);
 }
-
 article{
     text-align: center;
 }
-
 article #texto{
     color: white;
 }
-
 #texto h1{
     font-size: 16px;
     font-weight: 500;
     color: white;
 }
-
 #texto h2{
     font-size: 14px;
     font-weight: 500;
     color: rgb(207, 207, 207);
 }
-
 #texto a{
     text-decoration: none;
 }
