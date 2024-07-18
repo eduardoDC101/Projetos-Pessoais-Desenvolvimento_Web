@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: "Kanit", sans-serif;
+    background-color: #fbf8fb;
+}
+
+.clear{
+    clear: both;
+}
+
+#cabecalho{
+    background-color: #ffc400;
+    width: 100%;
+}
+
+#logo{
+    width: 20%;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+
+#logo h1{
+    color: rgb(48, 48, 48);
+    font-size: 52px;
+    font-weight:500;
+ 
+}
+
+#logo h1 span{
+    color: whitesmoke;
+}
+
+#menu {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 40px;
+    padding-bottom: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#menu a:hover{
+    background-color: whitesmoke;
+    color: #ffc400;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#corpo{
+    max-width: 80%;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+}
+#corpo a:hover{
+    color: darkred;
+}
+
+#conteudoPri{
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 2px rgb(182, 182, 182);
+    float: left;
+    width: 65%;
+}
+
+#conteudoPri h1{
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffc400;
+    margin-bottom: -10px;
+    letter-spacing: 2px;
+}
+
+#conteudoPri p{
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align:justify ;
+    text-indent: 15px;
+}
+.data{
+    margin-top: 10px;
+}
+
+#conteudoPri a{
+    color: #ffc400;
+    text-decoration: none;
+    
+}
+
+#conteudoPri article{
+    border-bottom: 2px solid rgba(48, 48, 48,0.2);
+    margin-bottom: 20px;
+    width: 80%; 
+    margin: 20px auto;
+
+}
+
+#conteudoPri article img{
+    max-width: 100%;
+}
+
+#lateral{
+    max-width: 30%;
+    margin-left: 20px;
+    float: right;
+    background-color: #fbf8fb;
+}
+
+#recentes {
+    background-color: white;
+    box-shadow: 0 0 2px rgb(182, 182, 182);
+    padding: 2px;
+}
+
+#recentes article{
+    padding: 2px;
+    text-align: justify;
+    max-width: 90%;
+    margin: 5px auto;
+    font-size: 15px;
+}
+
+#recentes hr{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#recentes a{
+    color: #ffc400;
+    text-decoration: none;
+}
+
+#lateral h2{
+    background-color: #dddadd;
+    padding: 5px;
+    margin: 10px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    font-size: 20px;
+}
+
+#categorias {
+    background-color: white;
+    box-shadow: 0 0 2px rgb(182, 182, 182);
+    padding: 2px;
+}
+
+#categorias a{
+    color: #ffc400;
+    text-decoration: none;
+    max-width: 90%;
+    margin: 5px auto;
+    display: block;
+}
+
+footer{
+    background-color: rgba(132, 132, 132, 0.6);
+    color: whitesmoke;
+    text-align: center;
+    width: 77% ;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+@media screen and (max-width:950px) {
+    #conteudoPri{
+        width: 100%;
+        float: none;
+        display: block;
+    }  
+    main #lateral{
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+        display: block;
+        max-width: 100%;
+    }
+}
