@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+    font-size: 12px;
+}
+
+h1{
+    color: black;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #4b4b4b;
+    font-weight: 500;
+}
+
+p{
+    color: #4b4b4b;
+    font-size: 1.3em;
+}
+
+#logo{
+    width: 180px;
+    margin: 0 auto;
+}
+
+#logo img{
+    width: 180px;
+}
+
+section#primeiro{
+    width: 100%;
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+#video-primeiro{
+    width: 45.5%;
+    height: 392px;
+    margin: 30px auto 60px auto;
+}
+
+#video-primeiro iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#texto-primeiro{
+    width: 55%;
+    margin: 0px auto;
+}
+
+#texto-primeiro h1{
+    letter-spacing: 1.5px;
+}
+
+#texto-primeiro p{
+    margin: 30px 0;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+#habilidades{
+    width: 100%;
+    background-color: #f0f0f0;
+    padding-bottom: 30px;
+}
+
+#fundo-habilidades{
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#fundo-habilidades article{
+    text-align: center;
+    width: 24%;
+    background-color: #fafafa;
+    padding: 35px 0;
+}
+
+#img-habilidades img{
+    width: 100px;
+}
+
+#fundo-habilidades p{
+    width: 70%;
+    margin: 15px auto;
+    line-height: 25px;
+}
+
+#fundo2-habilidades{
+    width: 94%;
+    margin: 120px auto;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#fundo2-habilidades article{
+    text-align: left;
+    width: 48%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fundo2-habilidades article img{
+    width: 220px;
+}
+
+#texto-fundo2
+{
+    width: 55%;
+}
+
+#texto-fundo2 p
+{
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+#imagens-habilidades{
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#imagens-habilidades img{
+    width: 32%;
+    padding: 10px 0;
+}
+
+#imagens-habilidades2{
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#imagens-habilidades2 img{
+    width: 49%;
+    padding: 10px 0;
+}
+
+.fundo-preto{
+    width: 100%;
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 80px 0 40px 0;
+    position: relative;
+}
+
+.fundo-preto a{
+    background-color: #fafafa;
+    color: #1c1c1c;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 35px 110px;
+    transition: 0.4s;
+}
+
+.fundo-preto a:hover{
+    background-color: #dcdcdc;
+    transition: 0.4s;
+}
+
+.fundo-preto p{
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+#andre{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+#fundo-andre{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fundo-andre img{
+    width: 30%;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0.744);
+}
+
+#texto-andre{
+    width: 60%;
+    border-radius: 200px;
+}
+
+#texto-andre p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+#jogos{
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+#fundo-jogos{
+    margin: 0 auto;
+    padding: 50px 0 70px 0;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fundo-jogos img{
+    width: 31%;
+    height: 350px;
+    border-radius: 30px;
+}
+
+#premios{
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 50px 0 70px 0;
+    text-align: center;
+}
+
+#premios-texto{
+    width: 90%;
+    margin: 0 auto 60px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+#premios-texto img{
+    border-radius: 20px;
+}
+
+#texto1-premios{
+    width: 45%;
+}
+
+#texto1-premios h1{
+    margin-bottom: 45px;
+}
+
+#texto1-premios p{
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+#jogos-premios{
+    width: 98%;
+    margin: 70px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#jogos-premios article{
+    text-align: left;
+    width: 24%;
+}
+
+#jogos-premios article img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#metodologia{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+#fundo-metodologia{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fundo-metodologia img{
+    width: 40%;
+    border-radius: 20px;
+}
+
+#texto-metodologia{
+    width: 45%;
+}
+
+#texto-metodologia p{
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+#curriculo{
+    text-align: center;
+}
+
+#curriculo ol{
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+
+#curriculo ol li{
+    margin-top: 10px;
+}
+
+#curriculo p{
+    padding: 20px 0 100px 0;
+}
+
+@media screen and (max-width:1250px) {
+    #premios-texto{
+        display: block;
+        text-align: center;
+    }
+    
+    #premios-texto img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    #texto1-premios{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    #fundo2-habilidades article{
+        display: block;
+        text-align: center;
+    }
+    #texto-fundo2{
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #fundo2-habilidades article img{
+        width: 280px;
+    }
+
+}
+
+@media screen and (max-width:1100px) {#video-primeiro{width: 70%;}}
+@media screen and (max-width:900px) {
+    #fundo-habilidades article{
+        width: 49%;
+        margin-bottom: 10px;
+    }
+    #fundo2-habilidades{
+        margin: 30px auto;
+    }
+    #fundo2-habilidades article{
+        text-align: center;
+        width: 90%;
+    }
+    #fundo2-habilidades article img{
+        width: 350px;
+    }
+    
+    #texto-fundo2
+    {
+        margin: 30px auto 60px auto;
+        width: 90%;
+    }
+    #fundo-jogos{
+        padding: 50px 0 70px 0;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #fundo-jogos img{
+        width: 100%;
+        height: 350px;
+        margin: 0 auto 40px auto;
+    }
+    .fundo-preto h1{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #fundo-andre{
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #fundo-andre img{
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 200px;
+        box-shadow: 0 0 10px rgba(5, 5, 5, 0.744);
+    }
+    
+    #texto-andre{
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        border-radius: 200px;
+    }
+    #fundo-metodologia{
+       flex-wrap: wrap;
+    }
+    
+    #fundo-metodologia img{
+        width: 80%;
+        border-radius: 20px;
+    }
+    
+    #texto-metodologia{
+        text-align: center;
+        width: 100%;
+        margin-top:30px ;
+    }
+    #jogos-premios{
+       flex-wrap: wrap;
+    }
+    
+    #jogos-premios article{
+        text-align: center;
+        width: 48%;
+        padding-bottom: 20px;
+    }
+    #video-primeiro{width: 90%;}
+    #imagens-habilidades{
+        flex-wrap: wrap;
+    }
+    
+    #imagens-habilidades img{
+        width: 70%;
+    }
+    
+    #imagens-habilidades2{
+        flex-wrap: wrap;
+    }
+    
+    #imagens-habilidades2 img{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #jogos-premios article{
+        width: 98%;
+    }
+    #fundo-metodologia img{
+        width: 90%;
+    }
+    #fundo-jogos{
+        width: 70%;
+    }
+    .fundo-preto a{
+        padding: 20px 70px;
+    }
+    #video-primeiro{display: none;}
+    #fundo-habilidades article{
+        width: 80%;
+        margin: 20px auto;
+    }
+    #logo img{
+        margin-bottom: 30px;
+    }
+    #fundo2-habilidades article img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .fundo-preto a{
+        padding: 20px 20px;
+    }
+    .fundo-preto h1{
+        font-size: 1.2em;
+    }
+    #fundo-jogos{
+        padding: 50px 0 70px 0;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #fundo-jogos img{
+        width: 100%;
+        height: 200px;
+    }
+}

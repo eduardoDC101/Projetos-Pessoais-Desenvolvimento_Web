@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    font-family:  "Rubik", sans-serif;
+    background-color: #181818;
+}
+
+#fundo-principal{
+    padding: 20px 0;
+    background-color: #181818;
+}
+
+h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h1{
+    background: linear-gradient(to right,#4dcf71,#c3d14c);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-weight: 700;
+}

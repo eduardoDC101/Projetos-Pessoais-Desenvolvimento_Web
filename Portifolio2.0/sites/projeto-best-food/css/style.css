@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+#cabecalho{
+    width: 100%;
+    background-color: white;
+}
+
+#logo{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#cabecalho ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+#cabecalho ul li a:hover{
+    text-decoration: underline;
+    color: #dc3545;
+}
+
+main{
+    background-color: #333;
+}
+
+#principal{ 
+    color: white;
+}
+
+#principal-text{
+    width: 50%;
+}
+
+#principal-img{
+    width: 40%;
+}
+
+.borda-menu{
+    border: 2px solid #333333a1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#item-menu:hover{
+    background-color: #ff5d5d;
+    color: white;
+}
+
+#pedido{
+    border:2px solid #3333337c;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+}
+
+#img-combo{
+    width: 40%;
+}
+#texto-combo{
+    width: 50%;
+}
+
+@media (width < 1200px){
+    #pedido{
+        width: 40%; 
+        margin: 0 20px;
+    }
+}
+
+@media (width < 768px){
+    #principal-text{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    #principal-img{
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    #pedido{
+        width: 80%; 
+        margin: 0 20px;
+    }
+
+}
+
+@media (width <877px){
+    #item-menu{
+        width: 60%;
+        margin-bottom: 10px;
+    }
+    #fundo-combo{
+        flex-direction: column;
+    }
+    #img-combo{
+        width: 60%;
+    }
+    #texto-combo{
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (width <568px){
+    #img-combo{
+        width: 100%;
+    }
+    
+}
+
+@media (width <380px){
+    #item-menu{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+}
