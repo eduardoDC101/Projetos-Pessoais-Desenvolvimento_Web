@@ -1,6 +1,5 @@
 /*Inicio do Header*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
 #seta{
     border: 3px solid white;
     border-radius: 50px;
@@ -13,12 +12,10 @@
     text-decoration: none;
     transition: 0.5s;
 }
-
 #seta:hover{
     background: linear-gradient(to bottom, #4dcf7262, #c4d14c91);
     transition: 0.5s;
 }
-
 header{
     background-color: #1F1F1F;
     display: flex;
