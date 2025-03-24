@@ -2,18 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     height: 100%;
     font-family:  "Rubik", sans-serif;
     background-color: #181818;
 }
-
 #fundo-principal{
     padding: 20px 0;
     background-color: #181818;
 }
-
 h3{
     color: white;
     font-size: 24px;
